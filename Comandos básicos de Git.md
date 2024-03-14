@@ -76,17 +76,29 @@ Además, debe posicionarse en la rama principal (la que desea mantener) para lue
 git merge rama_unir_main
 ```
 
-* Eliminar ramas
+* Eliminar ramas locales
 
 ```shell
 git branch -d prueba
 ```
+* Eliminar ramas remota
 
-
-
-## Conexión con GitHub o GitLab
 ```shell
-git remote add origin https://github.com/PotoyJuarez/CA0305_I24.git
+git push origin --delete rama_eliminar
+```
+
+## Añadir proyectos a un repositorio
+
+```shell
+git remote add origin https://github.com/Nombre_repositorio.git
+```
+
+## Clonar un repositorio
+```shell
+git clone https://github.com/Nombre_repositorio.git comandos_git
 ```
 
 
+## Adicionales
+* Se puede crear un documento *.gitignore* para omitir documentos al momento de realizar un push, de decir solo queda en mi espacio local y no se guarda versiones de ello.
+*
