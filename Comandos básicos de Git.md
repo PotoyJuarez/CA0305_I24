@@ -55,12 +55,20 @@ En git podemos trabajar multiples ramas de desarrollo. Para nombrar la rama que 
 git branch -M main 
 ```
 
-Para crear una nueva rama
+* Para crear una nueva rama
 ```shell
 git branch prueba
 ```
 
+* Cambio de rama
+```shell
+git creckout prueba
+```
 
+*  Unir ramas 
+```shell
+git merge rama_unir_main
+```
 
 ## Conexión con GitHub o GitLab
 ```shell
