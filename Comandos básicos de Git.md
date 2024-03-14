@@ -65,10 +65,24 @@ git branch prueba
 git creckout prueba
 ```
 
+En esta rama de prueba se puede realizar varios cambios los cuales es necesario guardar y asegurarse de hacer *commits* antes de tratar de cambiar de rama.
+
 *  Unir ramas 
+Antes de unificar las ramas debe tomar en cuenta que es lo que se desea:
+![[Merge_vs_rebase.jpg|300]]
+
+Además, debe posicionarse en la rama principal (la que desea mantener) para luego unir la rama secundaria:
 ```shell
 git merge rama_unir_main
 ```
+
+* Eliminar ramas
+
+```shell
+git branch -d prueba
+```
+
+
 
 ## Conexión con GitHub o GitLab
 ```shell
